@@ -12,6 +12,12 @@ import {
 } from 'mdb-react-ui-kit';
 
 export default function App() {
+  const [showbar, setShowbar] = useState();
+
+  const barshower = () => {
+
+  }
+
   const [showBasic, setShowBasic] = useState(false);
 
   return (
@@ -32,9 +38,6 @@ export default function App() {
                 <MDBNavbarLink href='/'>
                   Home
                 </MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink href='search'>Search</MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink href='About'>About</MDBNavbarLink>
